@@ -1,0 +1,12 @@
+D:\protoTest\protobuf-netTest\ProtoLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\protoTest\protobuf-netTest\ProtoLibrary\bin\Debug\protobuf-net.dll
+D:\protoTest\protobuf-netTest\ProtoLibrary\bin\Debug\OthelloBoard.dll
+D:\protoTest\protobuf-netTest\ProtoLibrary\bin\Debug\OthelloBoard.pdb
+D:\protoTest\protobuf-netTest\ProtoLibrary\obj\Debug\OthelloBoard.dll
+D:\protoTest\protobuf-netTest\ProtoLibrary\obj\Debug\OthelloBoard.pdb
+D:\protoTest\protobuf-netTest\BoardState\bin\Debug\OthelloBoard.dll
+D:\protoTest\protobuf-netTest\BoardState\bin\Debug\OthelloBoard.pdb
+D:\protoTest\protobuf-netTest\BoardState\bin\Debug\protobuf-net.dll
+D:\protoTest\protobuf-netTest\BoardState\obj\Debug\ResolveAssemblyReference.cache
+D:\protoTest\protobuf-netTest\BoardState\obj\Debug\OthelloBoard.dll
+D:\protoTest\protobuf-netTest\BoardState\obj\Debug\OthelloBoard.pdb

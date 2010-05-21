@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF61C77D-5B95-41A3-AF0D-CABB82D9EC9A}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Othello.vsmdi = Othello.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBoardStateStuff", ".\TestBoardStateStuff\TestBoardStateStuff.csproj", "{133DA5AE-76E3-4575-B188-87853CE2D79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardTests", ".\BoardTests\BoardTests.csproj", "{6B330A27-4950-4C65-ADDE-9E50388F3EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardState", ".\BoardState\BoardState.csproj", "{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Othello.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133DA5AE-76E3-4575-B188-87853CE2D79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133DA5AE-76E3-4575-B188-87853CE2D79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133DA5AE-76E3-4575-B188-87853CE2D79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133DA5AE-76E3-4575-B188-87853CE2D79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B330A27-4950-4C65-ADDE-9E50388F3EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B330A27-4950-4C65-ADDE-9E50388F3EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B330A27-4950-4C65-ADDE-9E50388F3EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B330A27-4950-4C65-ADDE-9E50388F3EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
