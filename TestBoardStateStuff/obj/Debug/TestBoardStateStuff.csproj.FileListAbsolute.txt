@@ -1,8 +1,0 @@
-D:\protoTest\protobuf-netTest\TestBoardStateStuff\obj\Debug\ResolveAssemblyReference.cache
-D:\protoTest\protobuf-netTest\TestBoardStateStuff\bin\Debug\TestBoardStateStuff.exe
-D:\protoTest\protobuf-netTest\TestBoardStateStuff\bin\Debug\TestBoardStateStuff.pdb
-D:\protoTest\protobuf-netTest\TestBoardStateStuff\bin\Debug\protobuf-net.dll
-D:\protoTest\protobuf-netTest\TestBoardStateStuff\obj\Debug\TestBoardStateStuff.exe
-D:\protoTest\protobuf-netTest\TestBoardStateStuff\obj\Debug\TestBoardStateStuff.pdb
-D:\git\othello\TestBoardStateStuff\obj\Debug\TestBoardStateStuff.exe
-D:\git\othello\TestBoardStateStuff\obj\Debug\TestBoardStateStuff.pdb

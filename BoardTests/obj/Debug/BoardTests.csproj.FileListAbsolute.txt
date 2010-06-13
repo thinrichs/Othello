@@ -1,6 +1,0 @@
-D:\protoTest\protobuf-netTest\BoardTests\obj\Debug\ResolveAssemblyReference.cache
-D:\protoTest\protobuf-netTest\BoardTests\bin\Debug\BoardTests.dll
-D:\protoTest\protobuf-netTest\BoardTests\bin\Debug\BoardTests.pdb
-D:\protoTest\protobuf-netTest\BoardTests\bin\Debug\protobuf-net.dll
-D:\protoTest\protobuf-netTest\BoardTests\obj\Debug\BoardTests.dll
-D:\protoTest\protobuf-netTest\BoardTests\obj\Debug\BoardTests.pdb

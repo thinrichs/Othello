@@ -1,6 +1,0 @@
-D:\protoTest\protobuf-netTest\ProtoLibrary\bin\Debug\ProtoLibrary.dll
-D:\protoTest\protobuf-netTest\ProtoLibrary\bin\Debug\ProtoLibrary.pdb
-D:\protoTest\protobuf-netTest\ProtoLibrary\bin\Debug\protobuf-net.dll
-D:\protoTest\protobuf-netTest\ProtoLibrary\obj\Debug\ResolveAssemblyReference.cache
-D:\protoTest\protobuf-netTest\ProtoLibrary\obj\Debug\ProtoLibrary.dll
-D:\protoTest\protobuf-netTest\ProtoLibrary\obj\Debug\ProtoLibrary.pdb
