@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,7 +31,6 @@ namespace OthelloBoard.Extensions
                 return result;
             }
         }
-
         public static BitArray SetFrom(this BitArray extended, ulong value)
         {
             ulong mask;

@@ -1,5 +1,5 @@
 ﻿using OthelloBoard;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System.Collections;
 using OthelloBoard.Extensions;
 using System;
@@ -13,14 +13,14 @@ namespace BoardTests
     [TestClass()]
     public class BoardStateTest
     {
-        [TestMethod]
+        [Test]
         public void SimpleBoardAsString()
         {
             Board b = new Board();
             Console.WriteLine(b.ToString());
             Assert.IsNotNull(b.ToString());
         }
-        [TestMethod]
+        [Test]
         public void SimpleWhiteBoardAsBitArray()
         {
             BitArray b = new BitArray(64, false)

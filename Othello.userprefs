@@ -1,0 +1,45 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/Test.cs" ctype="Workbench">
+    <Files>
+      <File FileName="UnitTests/Test.cs" Line="40" Column="24" />
+      <File FileName="TestBoardStateStuff/Program.cs" Line="1" Column="1" />
+      <File FileName="BoardState/MoveHandler.cs" Line="87" Column="2" />
+      <File FileName="BoardState/BoardDirections.cs" Line="19" Column="51" />
+      <File FileName="BoardState/BoardStateSet.cs" Line="23" Column="2" />
+      <File FileName="BoardState/MoveSelector.cs" Line="1" Column="1" />
+      <File FileName="BoardState/Board.cs" Line="101" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="BoardState" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="BoardState.proto" expanded="True" />
+          </Node>
+          <Node name="TestBoardStateStuff" expanded="True" />
+          <Node name="UnitTests" expanded="True">
+            <Node name="Test.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="UnitTests" expanded="True">
+            <Node name="BoardTests" expanded="True">
+              <Node name="BoardStateTest" expanded="True">
+                <Node name="nbwCountsAsValidWhiteMove" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

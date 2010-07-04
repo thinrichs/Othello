@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{133DA5AE-76E3-4575-B188-87853CE2D79B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestBoardStateStuff</RootNamespace>
-    <AssemblyName>TestBoardStateStuff</AssemblyName>
+    <RootNamespace>OthelloBoard</RootNamespace>
+    <AssemblyName>OthelloBoard</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,14 +49,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Extensions\BitArray.cs" />
+    <Compile Include="Extensions\byteArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Board\Board.cs" />
+    <Compile Include="Board\BoardDirections.cs" />
+    <Compile Include="Board\BoardState.cs">
+      <DependentUpon>..\BoardState.proto</DependentUpon>
+    </Compile>
+    <Compile Include="Board\BoardStateFunctionality.cs" />
+    <Compile Include="Board\BoardStateSet.cs" />
+    <Compile Include="Moves\MoveHandler.cs" />
+    <Compile Include="Moves\MoveSelector.cs" />
+    <Compile Include="Moves\MoveFinder.cs" />
+    <Compile Include="Board\Colors.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BoardState\Othello.csproj">
-      <Project>{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}</Project>
-      <Name>Othello</Name>
-    </ProjectReference>
+    <None Include="Board\BoardState.proto">
+      <Generator>ProtoBufTool</Generator>
+      <CustomToolNamespace>%3bfixCase</CustomToolNamespace>
+      <LastGenOutput>BoardState.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -66,4 +79,8 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Board\" />
+    <Folder Include="Moves\" />
+  </ItemGroup>
 </Project>
