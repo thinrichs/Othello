@@ -1,11 +1,11 @@
-using OthelloBoard;
+using Othello.Board;
 using NUnit.Framework;
 using System.Collections;
-using OthelloBoard.Extensions;
+using Othello.Board.Extensions;
 using System;
 using System.Linq;
 using System.Text;
-
+using Othello.Moves;
 
 namespace BoardTests
 { 
@@ -51,7 +51,7 @@ namespace BoardTests
 			MoveHandler mh = new MoveHandler();
 			mh.Board = new Board(Board.InitialState);
 			mh.PlayerColor = Colors.Black;
-			Assert.IsTrue(mh.MovesForPlayer()[19]);
+			Assert.IsTrue(mh.Moves[19]);
 		}
 		[Test]
 		public void squares19_26_37_44ValidBlackMoveFromInitialBoard()
@@ -59,10 +59,10 @@ namespace BoardTests
 			MoveHandler mh = new MoveHandler();
 			mh.Board = new Board(Board.InitialState);
 			mh.PlayerColor = Colors.Black;
-			Assert.IsTrue(mh.MovesForPlayer()[19]);
-			Assert.IsTrue(mh.MovesForPlayer()[26]);
-			Assert.IsTrue(mh.MovesForPlayer()[37]);
-			Assert.IsTrue(mh.MovesForPlayer()[44]);
+			Assert.IsTrue(mh.Moves[19]);
+			Assert.IsTrue(mh.Moves[26]);
+			Assert.IsTrue(mh.Moves[37]);
+			Assert.IsTrue(mh.Moves[44]);
 		}
 		[Test]
 		public void squares20_29_34_43ValidWhiteMoveFromInitialBoard()
@@ -70,10 +70,10 @@ namespace BoardTests
 			MoveHandler mh = new MoveHandler();
 			mh.Board = new Board(Board.InitialState);
 			mh.PlayerColor = Colors.White;
-			Assert.IsTrue(mh.MovesForPlayer()[20]);
-			Assert.IsTrue(mh.MovesForPlayer()[29]);
-			Assert.IsTrue(mh.MovesForPlayer()[34]);
-			Assert.IsTrue(mh.MovesForPlayer()[43]);
+			Assert.IsTrue(mh.Moves[20]);
+			Assert.IsTrue(mh.Moves[29]);
+			Assert.IsTrue(mh.Moves[34]);
+			Assert.IsTrue(mh.Moves[43]);
 		}
     }
 }

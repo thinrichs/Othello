@@ -49,27 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\BitArray.cs" />
-    <Compile Include="Extensions\byteArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Board\Board.cs" />
-    <Compile Include="Board\BoardDirections.cs" />
-    <Compile Include="Board\BoardState.cs">
-      <DependentUpon>..\BoardState.proto</DependentUpon>
-    </Compile>
-    <Compile Include="Board\BoardStateFunctionality.cs" />
-    <Compile Include="Board\BoardStateSet.cs" />
-    <Compile Include="Moves\MoveHandler.cs" />
-    <Compile Include="Moves\MoveSelector.cs" />
-    <Compile Include="Moves\MoveFinder.cs" />
-    <Compile Include="Board\Colors.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Board\BoardState.proto">
-      <Generator>ProtoBufTool</Generator>
-      <CustomToolNamespace>%3bfixCase</CustomToolNamespace>
-      <LastGenOutput>BoardState.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -80,7 +60,17 @@
   </Target>
   -->
   <ItemGroup>
-    <Folder Include="Board\" />
-    <Folder Include="Moves\" />
+    <ProjectReference Include="..\Strategies\Othello.Strategies.csproj">
+      <Project>{124ECAD2-73E1-4C2B-97B3-27490D166C84}</Project>
+      <Name>Othello.Strategies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Board\Othello.Board.csproj">
+      <Project>{A36CB40C-D573-4257-A878-BDC2224FB09E}</Project>
+      <Name>Othello.Board</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Moves\Othello.Moves.csproj">
+      <Project>{EDA91646-831E-4CA4-B6E9-96ADF5C762DA}</Project>
+      <Name>Othello.Moves</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

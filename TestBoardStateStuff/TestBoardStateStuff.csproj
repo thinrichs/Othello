@@ -57,6 +57,18 @@
       <Project>{5A7306B9-E69A-44CD-A8C0-3F682CF376B1}</Project>
       <Name>Othello</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Board\Othello.Board.csproj">
+      <Project>{A36CB40C-D573-4257-A878-BDC2224FB09E}</Project>
+      <Name>Othello.Board</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Moves\Othello.Moves.csproj">
+      <Project>{EDA91646-831E-4CA4-B6E9-96ADF5C762DA}</Project>
+      <Name>Othello.Moves</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Strategies\Othello.Strategies.csproj">
+      <Project>{124ECAD2-73E1-4C2B-97B3-27490D166C84}</Project>
+      <Name>Othello.Strategies</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

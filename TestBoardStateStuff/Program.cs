@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using ProtoBuf;
 using System.IO;
-using OthelloBoard;
+using Othello.Board;
 
 namespace TestBoardStateStuff
 {
